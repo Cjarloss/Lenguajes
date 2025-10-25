@@ -1,6 +1,10 @@
+import java.util.LinkedList; 
+
 public class hola{
     public static void main(String[] args){
-        System.out.println("Hola mundo");
+        LinkedList<String> Jugadores = new LinkedList<>(); 
+        Jugadores.add(Messi, "CR7");
+        System.out.println("Los mejores jugadores", Jugadores);
 
     }
 }
